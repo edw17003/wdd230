@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 30px;
+}
+
+.card {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
