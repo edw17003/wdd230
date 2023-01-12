@@ -4,6 +4,10 @@
     font-weight: 300;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 main {
     font-family: 'Roboto', sans-serif;
     font-size: 1.1em;
@@ -27,13 +31,13 @@ img {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
     main {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1400px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
